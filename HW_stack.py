@@ -28,11 +28,16 @@ class Stack:
 
 
 stack = Stack()
+
 print(stack.peek())
+
 stack.push(1)
 stack.push(2)
 stack.push(3)
+
 print(stack.is_empty())
 print(stack.peek())
+
 stack.pop()
+
 print(stack.peek())
