@@ -13,7 +13,7 @@ class Stack:
         return self.items.pop() # удаляет последний элемент
 
     def peek(self):
-        return self.items[-1] # возвращает первый элемент с конца списка
+        return self.items[-1] # возвращает первый элемент с конца списка (элемент добавленный последним)
 
 
 stack = Stack()
