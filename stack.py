@@ -20,7 +20,10 @@ stack = Stack()
 stack.push(1)
 stack.push(2)
 stack.push(3)
-print(stack.is_empty())
-print(stack.peek())
-stack.pop()
-print(stack.peek())
+
+print(stack.is_empty()) # проверяем пустой список или нет
+print(stack.peek()) # проверяем какой элемент добавлен последним
+
+stack.pop() # удаляем последний элемент
+
+print(stack.peek()) # # проверяем какой элемент последний
