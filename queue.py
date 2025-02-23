@@ -12,8 +12,7 @@ class Queue:
 
     # Удалять будем первый элемент очереди, то есть последний элемент списка
     def dequeue(self):
-        return self.items.pop()
-
+        return self.items.pop() # возвращает то, что он удалил
     # Подсчет количество элементов находится в очереди
     def size(self):
         return len(self.items)
@@ -27,7 +26,9 @@ queue.enqueue('Act1')
 queue.enqueue('Act2')
 queue.enqueue('Act3')
 
+# ["Act3", "Act2", "Act1"]
+
 print(queue.size())
-print(queue.dequeue())
+print(queue.dequeue())  # возвращает то, что он удалил
 print(queue.is_empty())
 print(queue.size())
