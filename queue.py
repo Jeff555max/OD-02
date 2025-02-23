@@ -6,7 +6,7 @@ class Queue:
     def is_empty(self):
         return self.items == []
 
-    # добавления элемента в конец очереди, те. вначало списка
+    # добавление элемента в конец очереди, те. в начало списка
     def enqueue(self, item):
         self.items.insert(0, item)
 
@@ -20,10 +20,13 @@ class Queue:
 
 
 queue = Queue()
+
 print(queue.is_empty())
+
 queue.enqueue('Act1')
 queue.enqueue('Act2')
 queue.enqueue('Act3')
+
 print(queue.size())
 print(queue.dequeue())
 print(queue.is_empty())
