@@ -1,6 +1,6 @@
 # Очередь (Queue) — это структура данных, работающая по принципу "первый пришел — первый ушел" (First In, First Out)
 class Queue:
-    def __init__(self):
+    def __init__(self): # метод инициализации, конструктор нашего класса
         self.items = []
 
     def is_empty(self):
